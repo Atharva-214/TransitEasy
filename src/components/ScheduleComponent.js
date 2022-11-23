@@ -100,7 +100,10 @@ class ScheduleComponent extends Component {
                     </thead>
                     <tbody>
                       {this.props.schedule.schedule ?
-                        this.props.schedule.schedule.filter((trip) => (trip.day === this.state.day)).map((trip) => {
+
+                        this.props.schedule.schedule.filter((trip) => (trip.day === this.state.day)).sort(function(trip1, trip2) {
+                          return (moment(trip1.time,'h:mma').isBefore(moment(trip2.time, 'h:mma')));
+                        }).map((trip) => {
                           return(
                             <tr>
                               <th scope="row">{trip.busNumber}</th>

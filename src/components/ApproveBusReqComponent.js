@@ -6,9 +6,20 @@ function RenderApproveBusRequest({ busRequest, handleSubmit }) {
     <div className="card col-fluid">
       <div className="card-body  p-3">
         <div className="row mt-1">
-          <div className="col-12 col-md-6">
-            <h5 className="p-2 px-4">{busRequest.email}</h5>
-          </div>
+          {busRequest.busType === "Special" ? (
+            <>
+              <div className="col-12 col-md-6">
+                <h5 className="p-2 px-4">{busRequest.email}</h5>
+              </div>
+            </>
+          ) : (
+            <>
+              <div className="col-12 col-md-6">
+                <h5 className="p-2 px-4">Bus No. {busRequest.busNumber}</h5>
+              </div>
+            </>
+          )}
+
           <div className="col-6 col-md-3 mt-2 mt-md-0">
             <button
               type="button"
@@ -47,8 +58,17 @@ function RenderApproveBusRequest({ busRequest, handleSubmit }) {
           <div className="col-6 col-md-3">
             {moment(busRequest.time, "hh:mm").format("LT")}
           </div>
-          <div className="col-6 col-md-3">Purpose:</div>
-          <div className="col-6 col-md-3">{busRequest.purpose}</div>
+          {busRequest.busType === "Special" ? (
+            <>
+              <div className="col-6 col-md-3">Purpose:</div>
+              <div className="col-6 col-md-3">{busRequest.purpose}</div>
+            </>
+          ) : (
+            <>
+              <div className="col-6 col-md-3">No. of Requests:</div>
+              <div className="col-6 col-md-3">{busRequest.numOfRequest}</div>
+            </>
+          )}
         </div>
       </div>
     </div>
