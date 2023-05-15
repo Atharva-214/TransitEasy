@@ -73,11 +73,11 @@ footer {
   bottom: 24.02%;
 }
 .sch-bg{
-  background-image: url(../public/assests/images/schedule.jpg) ;
+  background-image: url(https://firebasestorage.googleapis.com/v0/b/busbookingproject-9ac19.appspot.com/o/schedule.jpg?alt=media&token=70b01042-ca8a-4698-9107-b2f1432f8c76) ;
 }
 
 .home-bg {
-  background-image: url(../public/assests/images/HomeBackground2.png);
+  background-image: url(https://firebasestorage.googleapis.com/v0/b/busbookingproject-9ac19.appspot.com/o/HomeBackground2.png?alt=media&token=be2df3d9-ebb0-49dc-9c3c-2347a43439ae);
   background-size: cover;
   background-attachment: fixed;
 }

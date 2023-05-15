@@ -35,7 +35,7 @@ class Header extends Component {
               <div className="col-xl-2 col-md-3 col-sm-4 col-5 pl-3">
                 <NavLink className="navbar-brand" to="/">
                   <img
-                    src="assests/images/logo.png"
+                    src="https://firebasestorage.googleapis.com/v0/b/busbookingproject-9ac19.appspot.com/o/logo.png?alt=media&token=2c82f467-2ffc-43c0-9cb0-770577d9be81"
                     alt="LNMBus"
                     height="60%"
                     width="60%"

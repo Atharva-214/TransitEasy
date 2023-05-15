@@ -195,7 +195,7 @@ class SelectBusSeatComponent extends Component {
             <div className="card">
               <div className="card-body">
                 <div className="row d-flex align-self-right justify-content-end">
-                    <img src="/assests/images/steering.png" width="100px"
+                    <img src="https://firebasestorage.googleapis.com/v0/b/busbookingproject-9ac19.appspot.com/o/steering.png?alt=media&token=c73c8918-0938-42e7-914d-336e8426cfc9" width="100px"
                   className="py-2 pl-5" alt="" style={{marginRight:"20%"}}/>
                 </div>
                 <div className="col-12">

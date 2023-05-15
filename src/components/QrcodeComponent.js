@@ -62,7 +62,7 @@ class QrcodeComponent extends Component {
             <div className="col-7 col-md-5 col-lg-4 col-xl-3 mb-4">
               <img
                 className="phone-bg-image"
-                src="./assests/images/phonebg.png"
+                src="https://firebasestorage.googleapis.com/v0/b/busbookingproject-9ac19.appspot.com/o/phonebg.png?alt=media&token=4976ef69-fe8e-498b-8816-8b10518bd46f"
                 alt=""
               />
               {this.state.qrcode ? (

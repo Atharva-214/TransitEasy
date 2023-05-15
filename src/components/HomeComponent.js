@@ -107,7 +107,7 @@ class Home extends Component {
             </div>
             <div className=" col-9 col-sm-6 mb-5 mt-4 offset-xl-2 offset-2 offset-sm-0">
               <img
-                src="assests/images/admin-home-bg.png"
+                src="https://firebasestorage.googleapis.com/v0/b/busbookingproject-9ac19.appspot.com/o/admin-home-bg.png?alt=media&token=cb6893ed-8993-4a79-9053-84856f7d7c9b"
                 alt="LNMBus"
                 width="80%"
               />
@@ -145,7 +145,7 @@ class Home extends Component {
             </div>
             <div className=" col-10 col-sm-6  mb-5 mt-2 offset-xl-2 offset-1 offset-sm-0">
               <img
-                src="assests/images/Caretaker-homepage.png"
+                src="https://firebasestorage.googleapis.com/v0/b/busbookingproject-9ac19.appspot.com/o/Caretaker-homepage.png?alt=media&token=db7fa147-08f0-41c8-8297-f1d335ff3c92"
                 alt="LNMBus"
                 width="100%"
               />
