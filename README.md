@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+Woof Woof!
+Gallary:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+1)	Home Page
+ ![image](https://github.com/Atharva-214/TransitEasy/assets/80455957/808d556a-e824-4501-93f4-dd5c77d7f143)
 
-## Available Scripts
+2)	Register Page
+![image](https://github.com/Atharva-214/TransitEasy/assets/80455957/3e1d9f79-0b10-434f-9e0a-8f2534bb022c)
 
-In the project directory, you can run:
+ 
+3)	Login Page
+ ![image](https://github.com/Atharva-214/TransitEasy/assets/80455957/8ef31c99-2605-464f-80fd-e5ad414940a0)
 
-### `npm start`
+4)	Edit Post Page
+ ![image](https://github.com/Atharva-214/TransitEasy/assets/80455957/c019b543-cae6-4870-bc69-2f27630d8ef2)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+5)	Adoption blog Page
+![image](https://github.com/Atharva-214/TransitEasy/assets/80455957/854eafd5-7014-4093-9eba-bde5daad675e)
+![image](https://github.com/Atharva-214/TransitEasy/assets/80455957/d79af201-c45b-4b04-af17-57f907d17720)
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Features:
 
-### `npm run build`
+**Key Features of My Dog-Parent Friendly Web Application:**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. **Robust Front-End with React**:
+   - I used React, a popular JavaScript library, to create a robust and interactive front-end. This allowed me to build a responsive and user-friendly interface for managing adoption posts for dogs.
+   - Leveraging React's component-based architecture, I designed reusable UI components, making my code more modular and easier to maintain.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. **React Router for Dynamic Client-Side Routing**:
+   - I implemented React Router, a library that enables client-side routing in React applications. This enhanced the user experience by enabling features like dynamic navigation between different views or pages without the need for full page reloads.
+   - Users can seamlessly move through the application, thanks to the dynamic routing provided by React Router.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. **MongoDB Database with Mongoose Schema**:
+   - To store user accounts and detailed dog profiles securely, I designed a MongoDB database schema using Mongoose, a Node.js library tailored for working with MongoDB.
+   - With Mongoose, I defined the data structure, allowing for efficient interactions with the database, including the ability to create, read, update, and delete records.
 
-### `npm run eject`
+4. **Data Security with bcrypt Password Hashing**:
+   - Ensuring data security is paramount. To achieve this, I implemented bcrypt password hashing. Bcrypt is a widely-recognized library for securely hashing and salting passwords.
+   - By hashing passwords with bcrypt, I safeguarded user account data, providing robust protection against potential data breaches.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+5. **RESTful API Endpoints for CRUD Operations**:
+   - To facilitate user interactions with the back-end server, I developed RESTful API endpoints. REST (Representational State Transfer) is an architectural style used for designing networked applications.
+   - These endpoints empower users to perform CRUD (Create, Read, Update, Delete) operations on adoption posts and dog profiles. For instance, users can effortlessly create new adoption posts, access dog details, make updates, or remove posts when necessary.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+In summary, my web application is designed to be user-centric, providing a smooth and secure experience for managing dog adoption posts and profiles. The combination of React, Node.js, Express, and MongoDB forms a powerful stack that ensures a strong front-end and a scalable back-end, ultimately enhancing the user experience.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
